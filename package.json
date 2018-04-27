@@ -1,0 +1,9 @@
+{
+  "name": "YarnyLesson",
+  "version": "1.0.0",
+  "description": "YarnLesson",
+  "main": "index.js",
+  "repository": "https://github.com/WilliamTaormina/Javascript-Modules.git",
+  "author": "williamtaormina <williamtaormina@gmail.com>",
+  "license": "MIT"
+}

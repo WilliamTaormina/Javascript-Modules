@@ -46,7 +46,7 @@ module.exports = {
 
 To make use of the module and the behavior we define in it, we **import** the module. A common way to do this is with the **require()** function.
 
-Modules can be separated into individual documents, based on their specific featue, function, or goal, and then imported and exported back and forth, based on how you need to use them or combine them to make the program work.
+Modules can be separated into individual documents, based on their specific feature, function, or goal, and then imported and exported back and forth, based on how you need to use them or combine them to make the program work.
 
 require() syntax:
 
