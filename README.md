@@ -1,8 +1,8 @@
 # Javascript-Modules
 
-## What I learned:
+## What I learned
 
-Javascript modules are reusable peices of code that can be exported from one program, and imported fro use in another program. Modules are particularly useful because they help to:
+Javascript modules are reusable pieces of code that can be exported from one program, and imported fro use in another program. Modules are particularly useful because they help to:
 
 * find, fix, and debug code more easily.
 * reuse and recycle defined logic in different parts of our application
@@ -13,7 +13,7 @@ Javascript modules are reusable peices of code that can be exported from one pro
 
 The syntax for defining and exporting modules looks like this:
 
-```
+```javascript
 let Dinner = {};
 
 Dinner.firstCourse = "Pizza";
@@ -29,7 +29,7 @@ The pattern we use to export modules is thus:
 
 We can also wrap any collection of data and functions in an object, and export the object using **module.exports**. Example syntax would look like this:
 
-```
+```javascript
 let Dinner = {};
 
 module.exports = {
@@ -40,7 +40,7 @@ module.exports = {
 };
 ```
 
-#### Explort Defualt
+#### Export Default
 
 ### Importing the Module with **require()**
 
@@ -50,10 +50,10 @@ Modules can be separated into individual documents, based on their specific feat
 
 require() syntax:
 
-```
-const Dinner = require('./dinner.js');
-function happyCamper(){
- console.log('I am so excited that I am about to eat ' + Menu.firstCourse);
+```javascript
+const Dinner = require("./dinner.js");
+function happyCamper() {
+  console.log("I am so excited that I am about to eat " + Menu.firstCourse);
 }
 happyCamper();
 ```
